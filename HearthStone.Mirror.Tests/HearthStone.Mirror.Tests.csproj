@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <StartupObject></StartupObject>
+    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <RootNamespace>HearthStone.Mirror.Tests</RootNamespace>
+	  <AssemblyName>HearthStone.Mirror.Tests</AssemblyName>
+	  <Version>1.0.1</Version>
+	  <Description>HearthStone Deck Tracker Mirror Tests</Description>
+	  <PackageTags>HearthStone Deck Tracker Mirror Tests</PackageTags>
+	  <PackageReleaseNotes>Upgraded build configurations.</PackageReleaseNotes>
+	  <RepositoryType>GIT</RepositoryType>
+	  <RepositoryUrl>https://github.com/Latency/HearthStone.Mirror.Tests</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/Latency/HearthStone.Mirror.Tests</PackageProjectUrl>
+	  <Copyright>Copyright © HearthSim</Copyright>
+	  <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+	  <Company>HearthSim</Company>
+	  <Authors>HearthSim</Authors>
+	  <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HearthStone.Mirror" Version="1.0.1" />
+    <PackageReference Include="NUnit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+  </ItemGroup>
+
+</Project>
