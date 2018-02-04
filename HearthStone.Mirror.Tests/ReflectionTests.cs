@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq;
-using HearthMirror;
-using HearthMirror.Enums;
-using HearthMirror.Objects;
+using HearthStone.Mirror.Enums;
+using HearthStone.Mirror.Objects;
 using NUnit.Framework;
 
 
